@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    
+    <table class="table table-dark">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th> 
+            <th>Full Name</th>
+        </tr>
+        <tr>
+            <td>{{names[0]['first_name']}}</td>
+            <td>{{names[0]['last_name']}}</td>
+            <td>{{names[0]['first_name']}} {{names[0]['last_name']}}</td>
+        </tr>
+
+        <tr>
+            <td>{{names[1]['first_name']}}</td>
+            <td>{{names[1]['last_name']}}</td>
+            <td>{{names[1]['first_name']}} {{names[0]['last_name']}}</td>
+        </tr>
+        <tr>
+            <td>{{names[2]['first_name']}}</td>
+            <td>{{names[2]['last_name']}}</td>
+            <td>{{names[2]['first_name']}} {{names[2]['last_name']}}</td>
+        </tr>
+        <tr>
+            <td>{{names[3]['first_name']}}</td>
+            <td>{{names[3]['last_name']}}</td>
+            <td>{{names[3]['first_name']}} {{names[3]['last_name']}}</td>
+        </tr>
+    </table>
+
+</body>
+</html>
